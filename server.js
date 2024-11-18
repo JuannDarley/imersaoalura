@@ -19,6 +19,6 @@ app.get('/livro', (req, res) => {
     "titulo": "O Senhor dos Anéis",
     "autor": "J.R.R. Tolkien",
     "ano": 1954,
-    "genero": "Fantasia"
+    "genero": "Fantasia loucas"
   })
 })
