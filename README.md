@@ -1,1 +1,2 @@
-Project Imersão Alura Node JS
+Projetc - Immersion Alura
+Node.js with MongoDB
