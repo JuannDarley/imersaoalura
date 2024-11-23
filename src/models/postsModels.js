@@ -11,3 +11,11 @@ export async function getAllPosts(){
   return collection.find().toArray()
 
 }
+
+export async function createPost(newPost) {
+
+  const db = conection.db('imersao-instabytes')
+  const collection = db.collection('posts')
+  return collection.insertOne(newPost)
+
+}
